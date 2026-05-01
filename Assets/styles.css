@@ -1,7 +1,11 @@
-.navbar {
-    padding: 12px 0;
+.navbar .container {
+    display: flex;
+    align-items: center;
 }
 
 .navbar-nav {
-    gap: 25px; 
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 22px;
 }
