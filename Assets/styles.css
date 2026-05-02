@@ -1,6 +1,14 @@
 
 .navbar {
-    padding: 14px 0;
+    padding: 18px 0;
+    background: #F3F8FF;
+    box-shadow: #c9cdd3;
+}
+
+.navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .navbar-brand img {
@@ -8,7 +16,11 @@
 }
 
 .navbar-nav {
-    gap: 25px;
+    gap: 28px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .nav-link {
@@ -18,9 +30,30 @@
     padding: 0;
 }
 
+
 .navbar .btn {
-    padding: 8px 20px;
+    padding: 8px 22px;
     border-radius: 50px;
     font-size: 14px;
+    font-weight: 500;
     white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.navbar .container {
+    flex-wrap: nowrap;
+}
+
+@media (max-width: 991px) {
+    .navbar-nav {
+        gap: 15px;
+        margin: 10px 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navbar .container {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
 }
