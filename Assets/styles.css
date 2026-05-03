@@ -156,3 +156,54 @@
         font-size: 38px;
     }
 }
+.testimonials {
+    background: linear-gradient(135deg, #f5a623, #f8c35c);
+    padding: 80px 0;
+}
+
+.section-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #0b0f3b;
+    max-width: 500px;
+}
+.review-card {
+    background: white;
+    padding: 24px;
+    border-radius: 20px;
+    height: 100%;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+.stars {
+    color: #f5a623;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.review-card p {
+    font-size: 14px;
+    color: #5f6b7a;
+}
+.review-card h6 {
+    margin-top: 12px;
+    font-weight: 600;
+}
+.featured {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.featured strong {
+    color: #0b0f3b;
+    font-size: 23px;
+    padding-top: 50px;
+}
+.logos {
+    padding-left: 120px;
+    height: 28px;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
