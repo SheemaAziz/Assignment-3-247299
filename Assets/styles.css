@@ -567,3 +567,12 @@
   font-weight: bold;
 }
 
+.footer {
+  background: #070a3a;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+  flex-wrap: wrap;
+  gap: 40px;
+}
