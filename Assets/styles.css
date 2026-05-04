@@ -592,3 +592,63 @@
 .footer-right {
   flex: 1.2;
 }
+.footer-right {
+  background: #f6b73c;
+  color: black;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.newsletter {
+  display: flex;
+  margin-top: 15px;
+  background: white;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.newsletter input {
+  flex: 1;
+  border: none;
+  padding: 12px;
+  outline: none;
+}
+
+.newsletter button {
+  background: #050837;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+.socials span {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.legal-links {
+  margin-top: 15px;
+}
+
+.legal-links a {
+  margin-right: 15px;
+  font-size: 12px;
+  color: #ccc;
+}
+
+.footer-center hr {
+  width: 60px;
+  margin: 10px auto;
+  border: 1px solid #888;
+}
+
+.footer-center ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-center li {
+  margin: 10px 0;
+  color: #f6b73c;
+}
