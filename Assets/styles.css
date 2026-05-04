@@ -369,22 +369,29 @@
     background: #ffffff;
 }
 
+.support-wrapper {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: stretch;
+}
+
 .support-box1 {
-    /* display: flex; */
+    display: flex;
     border-radius: 20px;
     overflow: hidden;
     max-width: 450px;
     margin: 0 auto;
-    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+    
+    
 }
 
 .support-box2 {
-    /* display: flex; */
+    display: flex; 
     border-radius: 20px;
     overflow: hidden;
     max-width: 450px;
     margin: 0 auto;
-    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
 }
 
 .support-left {
@@ -432,6 +439,7 @@
     padding: 10px 18px;
     border-radius: 20px;
     font-size: 13px;
+    font-weight: bold;
 }
 
 .btn-outline {
@@ -440,4 +448,5 @@
     border-radius: 20px;
     font-size: 13px;
     color: #0d1b2a;
+    font-weight: bold;
 }
