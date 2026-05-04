@@ -326,13 +326,14 @@
 }
 
 .freedom-item h4 {
-    font-size: 16px;
-    font-weight: 600;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bolder;
     margin-bottom: 10px;
 }
 
 .freedom-item p {
-    font-size: 14px;
+    font-size: 16px;
     color: #6c757d;
     line-height: 1.5;
 }
@@ -341,4 +342,24 @@
     display: flex;
     justify-content: center;
     gap: 15px;
+}
+
+.freedom-btn-primary {
+    background: #f5b335;
+    border: none;
+    padding: 12px 26px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+}
+
+.freedom-btn-outline {
+    border: 1px solid #0b0f3b;
+    padding: 12px 26px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #0b0f3b;
+    background: transparent;
 }
