@@ -454,6 +454,7 @@
     padding: 100px 0;
     background: linear-gradient(135deg, #2b2fd6, #6c4df6);
     color: #fff;
+    gap: 30px;
 }
 .final-cta h2 {
     font-size: 34px;
@@ -465,4 +466,27 @@
     font-size: 16px;
     margin-bottom: 25px;
     opacity: 0.9;
+}
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.cta-btn-outline-light {
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 12px 40px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+.cta-btn-primary {
+    background: #f5b335;
+    border: none;
+    padding: 12px 40px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
 }
