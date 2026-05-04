@@ -568,33 +568,27 @@
 }
 
 .footer {
-  background: #070a3a;
+  background: #050837;
   color: white;
+  padding: 80px 60px;
+}
+
+.footer-container {
   display: flex;
   justify-content: space-between;
-  padding: 60px;
-  flex-wrap: wrap;
+  align-items: flex-start; 
   gap: 40px;
 }
 
-.footer-links a {
-  display: block;
-  color: white;
-  text-decoration: none;
-  margin: 6px 0;
+.footer-left {
+  flex: 1;
 }
 
-.footer-newsletter input {
-  padding: 10px;
-  border-radius: 10px;
-  border: none;
-  margin-top: 10px;
+.footer-center {
+  flex: 1;
+  text-align: center;
 }
 
-.footer-newsletter button {
-  margin-top: 10px;
-  padding: 10px;
-  background: #ffb938;
-  border: none;
-  border-radius: 10px;
+.footer-right {
+  flex: 1.2;
 }
