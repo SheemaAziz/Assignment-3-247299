@@ -542,12 +542,17 @@
 }
 
 .insight-card h3 {
-  padding: 0 15px;
+  padding: 30px 15px;
   font-size: 16px;
+  padding-left:  15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
 }
 
 .insight-card p {
-  padding: 0 15px;
+  padding-left:  15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
   font-size: 13px;
   color: gray;
 }
