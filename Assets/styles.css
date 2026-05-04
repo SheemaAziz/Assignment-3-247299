@@ -371,7 +371,7 @@
 
 .support-wrapper {
     display: flex;
-    gap: 10px;
+    gap: 6px;
     justify-content: center;
     align-items: stretch;
 }
@@ -424,12 +424,14 @@
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 12px;
+    line-height: 2;
 }
 
 .support-right p {
     font-size: 14px;
     color: #6c757d;
     margin-bottom: 20px;
+    line-height: 2;
 }
 
 .btn-story {
