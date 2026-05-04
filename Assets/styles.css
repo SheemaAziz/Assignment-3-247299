@@ -455,3 +455,14 @@
     background: linear-gradient(135deg, #2b2fd6, #6c4df6);
     color: #fff;
 }
+.final-cta h2 {
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.final-cta p {
+    font-size: 16px;
+    margin-bottom: 25px;
+    opacity: 0.9;
+}
