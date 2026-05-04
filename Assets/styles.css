@@ -236,7 +236,7 @@
 }
 .split-section {
     padding: 100px 0;
-    background: #f3f5f8;
+    background: #ffffff;
 }
 
 .split-wrapper {
@@ -263,15 +263,11 @@
 
 .split-buttons {
     display: flex;
-    gap: 15px;
+    flex-direction: column; 
+    align-items: flex-start; 
+    gap: 14px;
 }
-
-.split-image img {
-    width: 420px;
-    border: 6px solid #f4b23e;
-    border-radius: 6px;
-}
-.split-buttons btn-primary {
+.split-btn-primary {
     background: #f5b335;
     border: none;
     padding: 12px 26px;
@@ -279,4 +275,70 @@
     font-size: 14px;
     font-weight: 500;
     color: #000;
+}
+
+.split-btn-secondary {
+    border: 1px solid #0b0f3b;
+    padding: 12px 26px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #0b0f3b;
+    background: transparent;
+}
+.split-image img {
+    width: 420px;
+    border: 6px solid #f4b23e;
+    border-radius: 6px;
+    align-items: right;
+}
+
+.freedom-section {
+    padding: 110px 0;
+    background: #eef2f6;
+    text-align: center;
+}
+
+.freedom-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.freedom-card {
+    background: #ffffff;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 60px 50px;
+    border-radius: 22px;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.08);
+}
+
+.freedom-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px 30px;
+    margin-bottom: 50px;
+}
+.freedom-item img {
+    width: 40px;
+    margin-bottom: 15px;
+}
+
+.freedom-item h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.freedom-item p {
+    font-size: 14px;
+    color: #6c757d;
+    line-height: 1.5;
+}
+
+.freedom-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 }
