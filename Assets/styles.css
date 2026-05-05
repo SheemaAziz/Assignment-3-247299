@@ -458,10 +458,6 @@
     color: #000;
     text-decoration: none;
 }
-.insights {
-    padding: 80px 0;
-    background: #f3f7ff;
-}
 
 .section-title {
     text-align: center;
@@ -471,6 +467,7 @@
 }
 
 .insights {
+  background: #f3f7ff;
   text-align: center;
   padding: 80px 20px;
 }
@@ -488,7 +485,7 @@
   border-radius: 20px;
   overflow: hidden;
   text-align: left;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .insight-card img {
