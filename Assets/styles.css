@@ -44,19 +44,6 @@
     flex-wrap: nowrap;
 }
 
-@media (max-width: 991px) {
-    .navbar-nav {
-        gap: 15px;
-        margin: 10px 0;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .navbar .container {
-        flex-wrap: wrap;
-        gap: 10px;
-    }
-}
 
 .hero {
     padding: 215px 0; 
@@ -129,33 +116,6 @@
     object-fit: contain;
     
 }
-@media (max-width: 992px) {
-    .hero {
-        flex-direction: column;
-        padding: 100px 24px;
-        text-align: center;
-    }
-
-    .hero-left {
-        max-width: 100%;
-    }
-
-    .hero-right {
-        position: relative;
-        top: 40px;
-        width: 100%;
-        justify-content: center;
-    }
-
-    .hero-buttons {
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .hero-left h1 {
-        font-size: 38px;
-    }
-}
 .testimonials {
     background: linear-gradient(135deg, #f5a623, #f8c35c);
     padding: 80px 0;
@@ -166,7 +126,6 @@
     gap: 24px;
     justify-content: center;
 }
-
 
 .review-card {
     flex: 0 0 320px;
@@ -267,7 +226,7 @@
     align-items: flex-start; 
     gap: 14px;
 }
-.split-btn-primary {
+.split-btn-primary-outline {
     background: #f5b335;
     border: none;
     padding: 12px 26px;
@@ -275,9 +234,10 @@
     font-size: 14px;
     font-weight: 500;
     color: #000;
+    text-decoration: none;
 }
 
-.split-btn-secondary {
+.split-btn-secondary-outline {
     border: 1px solid #0b0f3b;
     padding: 12px 26px;
     border-radius: 50px;
@@ -285,6 +245,7 @@
     font-weight: 500;
     color: #0b0f3b;
     background: transparent;
+    text-decoration: none;
 }
 .split-image img {
     width: 420px;
@@ -352,6 +313,7 @@
     font-size: 14px;
     font-weight: 500;
     color: #000;
+    text-decoration: none;
 }
 
 .freedom-btn-outline {
@@ -362,6 +324,7 @@
     font-weight: 500;
     color: #0b0f3b;
     background: transparent;
+    text-decoration: none;
 }
 
 .support-section {
@@ -492,6 +455,7 @@
     font-size: 14px;
     font-weight: bold;
     color: #000;
+    text-decoration: none;
 }
 .insights {
     padding: 80px 0;
