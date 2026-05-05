@@ -690,15 +690,16 @@
   border-radius: 30px;
   margin: 3px;
 }
-.footer-placeholder {
-    width: 260px;         
-    height: 100px;   
-    padding-left: 200px;
-    margin: 30px 0;   
+.whiteBox {
     display: flex;
+    justify-content: flex-end;
+}
+.footer-placeholder {
+    width: 260px;
+    height: 100px;
     background: white;
     border-radius: 20px;
-    overflow: hidden; 
+    margin-top: 30px;
 }
 .footer-bottom {
   margin-top: 60px;
