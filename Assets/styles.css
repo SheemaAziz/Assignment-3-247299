@@ -405,6 +405,7 @@
     border-radius: 20px;
     font-size: 13px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .btn-outline {
@@ -414,6 +415,7 @@
     font-size: 13px;
     color: #0d1b2a;
     font-weight: bold;
+    text-decoration: none;
 }
 .final-cta {
     padding: 100px 0;
