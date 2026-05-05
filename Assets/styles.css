@@ -141,10 +141,9 @@
     color: #0b0f3b;
     max-width: 500px;
     padding-bottom: 30px;
-    text-align: left;
 }
 .container h2 {
-    text-align: left;
+    text-align: center;
 }
 .stars {
     color: #f5a623;
@@ -346,9 +345,7 @@
     border-radius: 20px;
     overflow: hidden;
     max-width: 450px;
-    margin: 0 auto;
-    
-    
+    margin: 0 auto;  
 }
 
 .support-box2 {
@@ -425,16 +422,16 @@
     color: #fff;
 }
 .final-cta h2 {
-    padding: 40px, 0;
+    padding: 25px 0;
     font-size: 34px;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 .final-cta p {
-    padding: 40px, 0;
+    padding: 25px 0;
     font-size: 16px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     opacity: 0.9;
 }
 .cta-buttons {
