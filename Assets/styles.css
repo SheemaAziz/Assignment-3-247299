@@ -1,5 +1,6 @@
 
-.navbar {
+/* navbar */
+.navbar { 
     padding: 18px 0;
     background: #F3F8FF;
     box-shadow: #c9cdd3;
@@ -43,8 +44,9 @@
 .navbar .container {
     flex-wrap: nowrap;
 }
+/* navbar */
 
-
+/* hero */
 .hero {
     padding: 215px 0; 
     background: #eef2f7;
@@ -116,6 +118,9 @@
     object-fit: contain;
     
 }
+/* hero */
+
+/* testimonials */
 .testimonials {
     background: linear-gradient(135deg, #f5a623, #f8c35c);
     padding: 80px 0;
@@ -194,6 +199,8 @@
     align-items: center;
     flex-wrap: wrap;
 }
+/* testimonials */
+/* split section */
 .split-section {
     padding: 100px 0;
     background: #ffffff;
@@ -254,7 +261,8 @@
     border-radius: 6px;
     align-items: right;
 }
-
+/* split section */
+/* Features section */
 .freedom-section {
     padding: 110px 0;
     background: #eef2f6;
@@ -327,7 +335,8 @@
     background: transparent;
     text-decoration: none;
 }
-
+/* Features section */
+/* support section */
 .support-section {
     padding: 80px 0;
     background: #ffffff;
@@ -416,6 +425,8 @@
     font-weight: bold;
     text-decoration: none;
 }
+/* support section */
+/* CTA section */
 .final-cta {
     padding: 100px 0;
     background: linear-gradient(135deg, #2b2fd6, #6c4df6);
@@ -465,7 +476,9 @@
     font-weight: bolder;
     margin-bottom: 40px;
 }
+/* CTA section */
 
+/* insights */
 .insights {
   background: #f3f7ff;
   text-align: center;
@@ -528,7 +541,8 @@
   cursor: pointer;
   font-weight: bold;
 }
-
+/* insights */
+/* footer */
 .footer {
   background: #070a3d;
   color: #fff;
@@ -683,3 +697,4 @@
   color: #9aa0d3;
   max-width: 600px;
 }
+/* footer */
